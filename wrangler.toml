@@ -1,0 +1,10 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "steep-mode-13d9"
+main = "src/index.js"
+compatibility_date = "2024-04-19"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "steep-mode-13d9"
+database_id = "fe3d1d37-97f9-4f44-a6f0-d07192ea6abf"
+

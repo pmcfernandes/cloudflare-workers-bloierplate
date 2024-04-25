@@ -1,0 +1,15 @@
+{
+  "name": "steep-mode-13d9",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+		"start-schema": "wrangler d1 execute steep-mode-13d9 --local --file=schema.sql"
+  },
+  "devDependencies": {
+    "itty-router": "^3.0.12",
+    "wrangler": "^3.0.0"
+  }
+}
